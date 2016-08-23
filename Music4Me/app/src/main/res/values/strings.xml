@@ -1,0 +1,44 @@
+<resources>
+    <string name="app_name">Music4Me</string>
+    <!-- Category name for PlayListNow-->
+    <string name="category_PlayListNow">Play List Now</string>
+
+    <!-- Category name for the available artists name in the app-->
+    <string name="category_ListArtists">Artists</string>
+
+    <!-- Category name for the search functionality through the users list-->
+    <string name="category_SearchList">Search My List</string>
+
+    <!-- Category name for Home Button-->
+    <string name="category_Home">Home</string>
+
+    <!-- Hint for edit text-->
+    <string name="edit_search">The Rolling Stones</string>
+
+    <!-- Description of the SearchList activity  and potential functionality-->
+    <string name="localLibrary">Here the user can search for songs in local library.
+
+        The class to be used is public final class MediaStore and AudioManager class.
+        The Media provider contains meta data for all available media on both internal and external storage devices.
+        And querying the ContentResolver for external media.
+
+    </string>
+
+    <!-- Description of the PlayListNow activity and potential functionality-->
+    <string name="nowPlaying">here the User can see which media is currently playing.
+
+        The code should use MediaPlayer and Audio Manager class.
+    </string>
+
+    <!-- Description of the ListArtists activity and potential functionality-->
+    <string name="artistsList">here the User can see and select from a list of artists.
+
+        The class to be used is : MediaStore.Files as part of public final class MediaStore which extends the Object
+        Media provider table containing an index of all files in the media storage, including non-media files.
+
+    </string>
+
+    <!-- Description of the MainActivity and potential functionality-->
+    <string name="home">here the User lands on the home page and can expand to all other activities</string>
+
+</resources>

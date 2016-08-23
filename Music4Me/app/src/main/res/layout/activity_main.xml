@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:orientation="vertical"
+    tools:context="mobi.storedot.music4me.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/dark_grey_background"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/PlayListNow"
+            style="@style/CategoryStyle"
+            android:background="@color/category_PlayListNow"
+            android:text="@string/category_PlayListNow" />
+
+        <TextView
+            android:id="@+id/ListArtists"
+            style="@style/CategoryStyle"
+            android:background="@color/category_Artists"
+            android:text="@string/category_ListArtists" />
+
+        <TextView
+            android:id="@+id/SearchMyList"
+            style="@style/CategoryStyle"
+            android:background="@color/category_SearchMyList"
+            android:text="@string/category_SearchList" />
+
+        <TextView
+            android:id="@+id/localLibrary"
+            style="@style/CategoryStyle"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/enter_search"
+            android:layout_marginBottom="16dp"
+            android:background="@color/primary_dark_color"
+            android:text="@string/home" />
+
+    </LinearLayout>
+</ScrollView>

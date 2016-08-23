@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:orientation="vertical"
+    tools:context="mobi.storedot.music4me.ListArtists">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/dark_grey_background">
+
+        <LinearLayout
+            android:id="@+id/Linear1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/dark_grey_background"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/Home"
+                style="@style/CategoryStyle"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@color/primary_color"
+                android:text="@string/category_Home" />
+
+            <TextView
+                android:id="@+id/PlayListNow"
+                style="@style/CategoryStyle"
+                android:layout_weight="1"
+                android:background="@color/category_PlayListNow"
+                android:text="@string/category_PlayListNow" />
+
+            <TextView
+                android:id="@+id/SearchMyList"
+                style="@style/CategoryStyle"
+                android:layout_weight="1"
+                android:background="@color/category_SearchMyList"
+                android:text="@string/category_SearchList" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/localLibrary"
+            style="@style/CategoryStyle"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/Linear1"
+            android:layout_marginBottom="16dp"
+            android:background="@color/category_Artists"
+            android:text="@string/artistsList" />
+    </RelativeLayout>
+</ScrollView>
